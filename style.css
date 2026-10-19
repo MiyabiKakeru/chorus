@@ -60,6 +60,10 @@ a {
 a:hover {
     color: rgb(0,147,173);
 }
+.imp {
+    color: #f00;
+    font-weight: bold;
+}
 /*PC版ここから*/
 @media (min-width: 800px) {
     body {

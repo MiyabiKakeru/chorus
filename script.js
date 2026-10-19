@@ -13,7 +13,7 @@ const data = [
     },
     {
         date: "2026/10/19",
-        about: "全体: 入り自信持ってハキハキと<br>　　　フレーズ長いから息切れしがち(特に26小節辺り)<br>　　　<span class='imp'>たくさん聞いてたくさん歌う</span>段階<br>男子: ✕ 文末強すぎ<br>女子: 強弱よくわからない"
+        about: "全体: 入り自信持ってハキハキと<br>　　　フレーズ長いから息切れしがち(特に26小節辺り)<br>　　　<span class='imp'>たくさん聞いてたくさん歌う</span>段階<br>男子: 文末強すぎ<br><span style='color: #999'>家でもちゃんと聞いてきてほしいです…</span><br>女子: 強弱よくわからない"
     }
 ]
 const container = document.getElementById("container")
@@ -27,6 +27,3 @@ for(let key of data){
         place.innerHTML = key.about
     })
 }
-document.getElementById("delete").addEventListener("click", () => {
-    place.textContent = ""
-})

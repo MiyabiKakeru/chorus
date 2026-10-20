@@ -21,7 +21,8 @@ h1 {
 #container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .button {
     color: #fff;
@@ -62,7 +63,7 @@ a:hover {
 }
 .imp {
     color: #f00;
-    font-weight: bold;
+    font-weight: 550;
 }
 /*PC版ここから*/
 @media (min-width: 800px) {

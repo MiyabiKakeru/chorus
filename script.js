@@ -22,6 +22,10 @@ const data = [
     {
         date: "2026/10/27",
         about: "先週できたことができなくなってる(特に「選んだ」の強弱)<br>細かいところをできるようにするために、<span class='imp'>放課でも部分練習</span>をしよう"
+    },
+    {
+        date: "2026/10/30",
+        about: "リハーサル始まる前後うるさかった<br>→もし歌がうまくても態度が悪かったらもったいない!<br>普段できていた<span class='imp'>音程や表現、タイミングなどがだめになっていた</span><br>気持ちをもっと込めて歌うべき<br>→みんなで気持ちを統一<br><span class='imp'>指揮を見れていない<br>自分のペースで勝手に歌いすぎ</span><br><span style='color: #999'>男子へ:指揮見てもタイミングがわかんない人は、体揺らしてリズム取ってみてもいいかも</span>"
     }
 ]
 const container = document.getElementById("container")
